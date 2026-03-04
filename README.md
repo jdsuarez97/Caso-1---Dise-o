@@ -1,8 +1,13 @@
 Instituto Tecnologico de Costa Rica
+
 Escuela de Ingenieria en Computacion 
+
 Diseño de Software
+
 Grupo 2
+
 Daniela Suarez Quiros
+
 I Semestre 2026
 
 
