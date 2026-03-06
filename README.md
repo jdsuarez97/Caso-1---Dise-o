@@ -92,6 +92,8 @@ Wireframes:
 
 Wireframe 1. Login Screen
 Description: Initial screen for user authentication in the system. It allows secure access to the platform before handling customs records.
+<img width="1536" height="1024" alt="wireframe1" src="https://github.com/user-attachments/assets/afbf894b-8e32-4883-b595-1dea7bf8e151" />
+
 
 Wireframe 2. Work Folder Selection
 Description: Screen where the user defines the local or network folder containing the source documents for the procedure. The system validates availability and basic content compatibility.
