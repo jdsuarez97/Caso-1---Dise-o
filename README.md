@@ -130,8 +130,11 @@ Description: Review screen for the generated document, where the user can view t
 
 Wireframe 7. Field Traceability View
 Description: Screen where the user can check the documentary source of a specific DUA data field, verifying from which file it was extracted and with what confidence level.
+<img width="1536" height="1024" alt="wireframe7" src="https://github.com/user-attachments/assets/fd42270a-6f4e-4d80-8da5-edbd1c86fc18" />
 
 
 
 Wireframe 8. Confirmation and Result Export
 Description: Final screen in the workflow where the user confirms the completed review and obtains the pre-filled DUA Word file.
+<img width="1536" height="1024" alt="wireframe1" src="https://github.com/user-attachments/assets/e8f3383f-8097-4e3f-af2c-362f85bf2f27" />
+
