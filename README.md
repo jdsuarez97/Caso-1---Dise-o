@@ -2,7 +2,11 @@ Aerodinámico DUA
 
 Daniela Suarez Quiros
 
-Currently, the preparation of the Customs Single Administrative Document (DUA) in Costa Rica is a largely manual process where customs specialists must extract and transcribe information from multiple documents such as invoices, bills of lading, and packing lists. Due to the heterogeneous formats and structures of these documents, the process becomes time-consuming and prone to errors, often leading to inconsistencies, rework, and delays in customs processing. The problem to solve is how to automate and standardize the extraction and completion of DUA data from multiple sources while keeping the specialist in a validation role, thereby reducing operational workload, minimizing errors, and improving efficiency in international trade operations.
+The preparation of the Customs Single Administrative Document (DUA) in Costa Rica currently requires significant manual effort. Information needed to complete the declaration is distributed across multiple documents such as invoices, packing lists, transport documents, and certificates. These files often arrive in different formats—including spreadsheets, PDFs, Word documents, and scanned images—which forces customs specialists to manually locate and interpret the relevant data before entering it into the official DUA template.
+
+To improve this process, the proposed solution introduces a system capable of automatically analyzing a collection of trade documents and extracting the information required for the declaration. The system will process heterogeneous formats, identify relevant fields, and map the extracted data to the corresponding sections of the official DUA structure defined by the Costa Rican customs authority.
+
+The expected outcome is a DUA document that is automatically pre-filled and ready for expert validation. Instead of manually consolidating data, customs specialists will focus on reviewing flagged fields and confirming accuracy. This approach reduces operational workload, lowers the probability of data entry errors, and helps accelerate customs processing in international trade operations.
 
 # 1. Frontend Design
 
@@ -83,3 +87,29 @@ The user generates the final pre-filled Word file of the DUA for later use in th
 11. Logout
 The user ends their work session.
 The system closes access and protects the information of the processed case file.
+
+Wireframes:
+
+Wireframe 1. Login Screen
+Description: Initial screen for user authentication in the system. It allows secure access to the platform before handling customs records.
+
+Wireframe 2. Work Folder Selection
+Description: Screen where the user defines the local or network folder containing the source documents for the procedure. The system validates availability and basic content compatibility.
+
+Wireframe 3. Official DUA Template Selection
+Description: Screen where the user selects the current official DUA template that will be used as the basis for the pre-filled document.
+
+Wireframe 4. Configuration Summary and Process Start
+Description: Preview of the case file to be processed, including the selected path, the number and type of detected documents, and the chosen template, before running the analysis.
+
+Wireframe 5. Process Progress Monitoring
+Description: Screen for checking the processing status. It should show which stage is currently running, which documents have already been analyzed, and whether there are any warnings or errors.
+
+Wireframe 6. Pre-filled DUA Result
+Description: Review screen for the generated document, where the user can view the DUA with fields classified by confidence level and identify information that requires validation.
+
+Wireframe 7. Field Traceability View
+Description: Screen where the user can check the documentary source of a specific DUA data field, verifying from which file it was extracted and with what confidence level.
+
+Wireframe 8. Confirmation and Result Export
+Description: Final screen in the workflow where the user confirms the completed review and obtains the pre-filled DUA Word file.
