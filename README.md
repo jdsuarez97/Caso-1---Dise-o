@@ -95,9 +95,11 @@ Description: Initial screen for user authentication in the system. It allows sec
 <img width="1536" height="1024" alt="wireframe1" src="https://github.com/user-attachments/assets/afbf894b-8e32-4883-b595-1dea7bf8e151" />
 
 
+
 Wireframe 2. Work Folder Selection
 Description: Screen where the user defines the local or network folder containing the source documents for the procedure. The system validates availability and basic content compatibility.
 <img width="1536" height="1024" alt="wireframe2" src="https://github.com/user-attachments/assets/4b55b96c-ae42-4ff5-b9d7-582c13a96a8c" />
+
 
 
 Wireframe 3. Official DUA Template Selection
@@ -105,22 +107,31 @@ Description: Screen where the user selects the current official DUA template tha
 <img width="1536" height="1024" alt="wireframe3" src="https://github.com/user-attachments/assets/0e0f21dc-8356-4a7f-9f49-b0bc1f7570cb" />
 
 
+
 Wireframe 4. Configuration Summary and Process Start
 Description: Preview of the case file to be processed, including the selected path, the number and type of detected documents, and the chosen template, before running the analysis.
 <img width="1536" height="1024" alt="wireframe4" src="https://github.com/user-attachments/assets/b1f6c91e-b4ee-4bc5-9d7b-0fb68a6bdaad" />
 
 
+
 Wireframe 5. Process Progress Monitoring
 Description: Screen for checking the processing status. It should show which stage is currently running, which documents have already been analyzed, and whether there are any warnings or errors.
-<img width="1536" height="1024" alt="wireframe5" src="https://github.com/user-attachments/assets/b3419bec-c3b8-436d-ae19-2aa8d9ab4854" />
+<img width="1536" height="1024" alt="wireframe5" src="https://github.com/user-attachments/assets/7409c3ba-cf0f-4da2-a8ec-882f415857b3" />
+
+
+
 
 
 Wireframe 6. Pre-filled DUA Result
 Description: Review screen for the generated document, where the user can view the DUA with fields classified by confidence level and identify information that requires validation.
+<img width="1536" height="1024" alt="wireframes6" src="https://github.com/user-attachments/assets/e8630271-ff55-4508-b81c-04f5799902ab" />
+
 
 
 Wireframe 7. Field Traceability View
 Description: Screen where the user can check the documentary source of a specific DUA data field, verifying from which file it was extracted and with what confidence level.
+
+
 
 Wireframe 8. Confirmation and Result Export
 Description: Final screen in the workflow where the user confirms the completed review and obtains the pre-filled DUA Word file.
