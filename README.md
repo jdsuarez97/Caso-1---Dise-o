@@ -136,5 +136,6 @@ Description: Screen where the user can check the documentary source of a specifi
 
 Wireframe 8. Confirmation and Result Export
 Description: Final screen in the workflow where the user confirms the completed review and obtains the pre-filled DUA Word file.
-<img width="1536" height="1024" alt="wireframe1" src="https://github.com/user-attachments/assets/e8f3383f-8097-4e3f-af2c-362f85bf2f27" />
+<img width="1536" height="1024" alt="wireframe8" src="https://github.com/user-attachments/assets/6314bbdd-abf4-40e2-91ec-889787084d2f" />
+
 
